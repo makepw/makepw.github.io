@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<랜덤 비밀번호 생성기 >
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Password Generator</title>
+<title>비밀번호 생성기</title>
 <style>
   body {
     font-family: Arial, sans-serif;
@@ -21,7 +21,7 @@
 </head>
 <body>
   <h1>Password Generator</h1>
-  <button onclick="generatePassword()">Generate Password</button>
+  <button onclick="generatePassword()">비밀번호 생성</button>
   <div id="password" class="password"></div>
 
 <script>
