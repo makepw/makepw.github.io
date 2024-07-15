@@ -29,7 +29,7 @@
             padding: 10px;
             width: 100%;
             box-sizing: border-box;
-            margin-bottom: 10px 0 0 25px;
+            margin-bottom: 20px;
             border: 1px solid #ccc;
             border-radius: 4px;
             outline: none;
