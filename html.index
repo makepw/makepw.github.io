@@ -1,4 +1,4 @@
-<랜덤 비밀번호 생성기 >
+<랜덤 비밀번호 생성기>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -20,7 +20,7 @@
 </style>
 </head>
 <body>
-  <h1>Password Generator</h1>
+  <h1>비밀번호 생성기</h1>
   <button onclick="generatePassword()">비밀번호 생성</button>
   <div id="password" class="password"></div>
 
