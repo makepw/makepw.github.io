@@ -1,4 +1,4 @@
-<랜덤 비밀번호 생성기>
+<비밀번호 생성기>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
