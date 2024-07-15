@@ -60,7 +60,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Password Generator</h2>
+        <h2>비밀번호 생성기</h2>
         <input type="number" id="lengthInput" class="password-input" min="1" max="50" placeholder="비밀번호 길이 입력">
         <button onclick="generatePassword()" class="generate-button">비밀번호 생성</button>
         <div id="generatedPassword" class="generated-password">여기에 비밀번호가 표시됩니다.</div>
