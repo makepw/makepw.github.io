@@ -11,7 +11,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #ffffff;
+            background-color: #000000;
             font-family: Arial, sans-serif;
         }
         .container {
