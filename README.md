@@ -17,10 +17,10 @@
         .container {
             text-align: center;
             background-color: #fff;
-            padding: 25px;
+            padding: 177px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 500px;
+            max-width: 1000px;
             width: 100%;
             margin: 0 auto;
         }
