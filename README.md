@@ -17,10 +17,10 @@
         .container {
             text-align: center;
             background-color: #fff;
-            padding: 150px; /* 3배로 증가 */
+            padding: 50px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 1200px; /* 3배로 증가 */
+            max-width: 1200px;
             width: 100%;
         }
         .password-input {
@@ -54,9 +54,12 @@
             background-color: #f9f9f9;
             border: 1px solid #ccc;
             border-radius: 4px;
-            height: 100px; /* 크기 고정 */
-            width: 100%; /* 크기 고정 */
+            height: 100px; /* 고정된 높이 */
+            width: 90%; /* 고정된 너비 */
+            max-width: 1000px;
             overflow: auto; /* 텍스트가 넘칠 때 스크롤 */
+            box-sizing: border-box; /* 패딩 포함하여 크기 계산 */
+            margin: 0 auto; /* 가운데 정렬 */
         }
     </style>
 </head>
