@@ -17,26 +17,29 @@
         .container {
             text-align: center;
             background-color: #fff;
-            padding: 20px;
+            padding: 50px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 1000px;
             width: 100%;
+            aspect-ratio: 1/1;
             margin: 0 auto;
         }
         .password-input {
             font-size: 16px;
             padding: 10px;
-            width: 100%;
+            width: 90%;
             box-sizing: border-box;
-            margin-bottom: 10px;
+            margin-bottom: 0px;
             border: 1px solid #ccc;
             border-radius: 4px;
             outline: none;
+            position: relative;
+            top: -20px;
         }
         .generate-button {
             font-size: 16px;
-            padding: 10px 20px;
+            padding: 20px 20px;
             cursor: pointer;
             background-color: #4CAF50;
             color: #fff;
@@ -49,12 +52,13 @@
         .generated-password {
             font-size: 18px;
             font-weight: bold;
-            padding: 10px;
+            padding: 20px;
             margin-top: 20px;
             word-break: break-all;
             background-color: #f9f9f9;
             border: 1px solid #ccc;
             border-radius: 4px;
+            height: 100px;
         }
     </style>
 </head>
