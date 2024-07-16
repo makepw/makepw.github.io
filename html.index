@@ -28,7 +28,7 @@
             padding: 10px;
             width: 90%;
             box-sizing: border-box;
-            margin-bottom: 20px;
+            margin: 20px 0; /* 요소 간의 위아래 간격 조정 */
             border: 1px solid #ccc;
             border-radius: 4px;
             outline: none;
@@ -41,6 +41,7 @@
             color: #fff;
             border: none;
             border-radius: 4px;
+            margin: 20px 0; /* 요소 간의 위아래 간격 조정 */
         }
         .generate-button:hover {
             background-color: #45a049;
@@ -49,7 +50,7 @@
             font-size: 18px;
             font-weight: bold;
             padding: 20px;
-            margin-top: 20px;
+            margin: 20px auto; /* 요소 간의 위아래 간격 조정 */
             word-break: break-all;
             background-color: #f9f9f9;
             border: 1px solid #ccc;
@@ -58,13 +59,12 @@
             width: 400px; /* 고정된 너비 */
             overflow: auto; /* 텍스트가 넘칠 때 스크롤 */
             box-sizing: border-box; /* 패딩 포함하여 크기 계산 */
-            margin: 0 auto; /* 가운데 정렬 */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>비밀번호 생성기</h2>
+        <h2 style="margin-bottom: 20px;">비밀번호 생성기</h2>
         <input type="number" id="lengthInput" class="password-input" min="1" max="50" placeholder="비밀번호 길이 입력">
         <button onclick="generatePassword()" class="generate-button">비밀번호 생성</button>
         <div id="generatedPassword" class="generated-password">여기에 비밀번호가 표시됩니다.</div>
