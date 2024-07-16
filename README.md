@@ -55,8 +55,7 @@
             border: 1px solid #ccc;
             border-radius: 4px;
             height: 100px; /* 고정된 높이 */
-            width: 90%; /* 고정된 너비 */
-            max-width: 1000px;
+            width: 400px; /* 고정된 너비 */
             overflow: auto; /* 텍스트가 넘칠 때 스크롤 */
             box-sizing: border-box; /* 패딩 포함하여 크기 계산 */
             margin: 0 auto; /* 가운데 정렬 */
