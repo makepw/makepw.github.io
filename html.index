@@ -17,10 +17,10 @@
         .container {
             text-align: center;
             background-color: #fff;
-            padding: 50px;
+            padding: 150px; /* 3배로 증가 */
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 400px; /* 크기 고정 */
+            max-width: 1200px; /* 3배로 증가 */
             width: 100%;
         }
         .password-input {
