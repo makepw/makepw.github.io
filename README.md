@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -20,26 +20,22 @@
             padding: 50px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 1000px;
+            max-width: 400px; /* 크기 고정 */
             width: 100%;
-            aspect-ratio: 1/1;
-            margin: 0 auto;
         }
         .password-input {
             font-size: 16px;
             padding: 10px;
             width: 90%;
             box-sizing: border-box;
-            margin-bottom: 0px;
+            margin-bottom: 20px;
             border: 1px solid #ccc;
             border-radius: 4px;
             outline: none;
-            position: relative;
-            top: -20px;
         }
         .generate-button {
             font-size: 16px;
-            padding: 20px 20px;
+            padding: 10px 20px;
             cursor: pointer;
             background-color: #4CAF50;
             color: #fff;
@@ -58,7 +54,9 @@
             background-color: #f9f9f9;
             border: 1px solid #ccc;
             border-radius: 4px;
-            height: 100px;
+            height: 100px; /* 크기 고정 */
+            width: 100%; /* 크기 고정 */
+            overflow: auto; /* 텍스트가 넘칠 때 스크롤 */
         }
     </style>
 </head>
